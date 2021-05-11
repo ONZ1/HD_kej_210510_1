@@ -11,6 +11,7 @@ int* input() {
 	for (int i = 0; i < 5; i++)
 	{
 		printf("배열을 변경합니다. [%d]에 들어갈 정수를 입력해주세요:", i);
+		fseek(stdin, 0, SEEK_END);
 		scanf_s("%d", ptr+i);
 	}
 	printf("\n");
