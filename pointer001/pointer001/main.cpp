@@ -11,4 +11,6 @@ void main() {
 	
 	printf("변경 후 배열:");
 	out(number);
+
+	fgetc(stdin);
 }
